@@ -1,0 +1,325 @@
+
+Tiempo = 60: Entra Proceso 0: inicio = 60; total = 30; ejecutado = 0
+
+Estado actual del sistema:
+Proceso 0: inicio = 60; total = 30; ejecutado = 0
+
+Tiempo = 80: Se reemplaza Proceso 0: inicio = 60; total = 30; ejecutado = 20
+
+Tiempo = 80: Reinicia Proceso 0: inicio = 60; total = 30; ejecutado = 20
+
+Estado actual del sistema:
+Proceso 0: inicio = 60; total = 30; ejecutado = 20
+
+Tiempo = 90: Termina Proceso 0: inicio = 60; total = 30; ejecutado = 30
+
+Estado actual del sistema:
+	No hay procesos en el sistema.
+
+Tiempo = 110: Entra Proceso 1: inicio = 110; total = 300; ejecutado = 0
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 0
+
+Tiempo = 120: Entra Proceso 2: inicio = 120; total = 50; ejecutado = 0
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 0
+Proceso 2: inicio = 120; total = 50; ejecutado = 0
+
+Tiempo = 130: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 20
+
+Tiempo = 130: Reinicia Proceso 2: inicio = 120; total = 50; ejecutado = 0
+
+Estado actual del sistema:
+Proceso 2: inicio = 120; total = 50; ejecutado = 0
+Proceso 1: inicio = 110; total = 300; ejecutado = 20
+
+Tiempo = 150: Entra Proceso 3: inicio = 150; total = 40; ejecutado = 0
+
+Estado actual del sistema:
+Proceso 2: inicio = 120; total = 50; ejecutado = 0
+Proceso 1: inicio = 110; total = 300; ejecutado = 20
+Proceso 3: inicio = 150; total = 40; ejecutado = 0
+
+Tiempo = 150: Se reemplaza Proceso 2: inicio = 120; total = 50; ejecutado = 20
+
+Tiempo = 150: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 20
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 20
+Proceso 3: inicio = 150; total = 40; ejecutado = 0
+Proceso 2: inicio = 120; total = 50; ejecutado = 20
+
+Tiempo = 160: Entra Proceso 4: inicio = 160; total = 80; ejecutado = 0
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 20
+Proceso 3: inicio = 150; total = 40; ejecutado = 0
+Proceso 2: inicio = 120; total = 50; ejecutado = 20
+Proceso 4: inicio = 160; total = 80; ejecutado = 0
+
+Tiempo = 170: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 40
+
+Tiempo = 170: Reinicia Proceso 3: inicio = 150; total = 40; ejecutado = 0
+
+Estado actual del sistema:
+Proceso 3: inicio = 150; total = 40; ejecutado = 0
+Proceso 2: inicio = 120; total = 50; ejecutado = 20
+Proceso 4: inicio = 160; total = 80; ejecutado = 0
+Proceso 1: inicio = 110; total = 300; ejecutado = 40
+
+Tiempo = 190: Se reemplaza Proceso 3: inicio = 150; total = 40; ejecutado = 20
+
+Tiempo = 190: Reinicia Proceso 2: inicio = 120; total = 50; ejecutado = 20
+
+Estado actual del sistema:
+Proceso 2: inicio = 120; total = 50; ejecutado = 20
+Proceso 4: inicio = 160; total = 80; ejecutado = 0
+Proceso 1: inicio = 110; total = 300; ejecutado = 40
+Proceso 3: inicio = 150; total = 40; ejecutado = 20
+
+Tiempo = 210: Se reemplaza Proceso 2: inicio = 120; total = 50; ejecutado = 40
+
+Tiempo = 210: Reinicia Proceso 4: inicio = 160; total = 80; ejecutado = 0
+
+Estado actual del sistema:
+Proceso 4: inicio = 160; total = 80; ejecutado = 0
+Proceso 1: inicio = 110; total = 300; ejecutado = 40
+Proceso 3: inicio = 150; total = 40; ejecutado = 20
+Proceso 2: inicio = 120; total = 50; ejecutado = 40
+
+Tiempo = 230: Se reemplaza Proceso 4: inicio = 160; total = 80; ejecutado = 20
+
+Tiempo = 230: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 40
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 40
+Proceso 3: inicio = 150; total = 40; ejecutado = 20
+Proceso 2: inicio = 120; total = 50; ejecutado = 40
+Proceso 4: inicio = 160; total = 80; ejecutado = 20
+
+Tiempo = 250: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 60
+
+Tiempo = 250: Reinicia Proceso 3: inicio = 150; total = 40; ejecutado = 20
+
+Estado actual del sistema:
+Proceso 3: inicio = 150; total = 40; ejecutado = 20
+Proceso 2: inicio = 120; total = 50; ejecutado = 40
+Proceso 4: inicio = 160; total = 80; ejecutado = 20
+Proceso 1: inicio = 110; total = 300; ejecutado = 60
+
+Tiempo = 270: Termina Proceso 3: inicio = 150; total = 40; ejecutado = 40
+
+Tiempo = 270: Reinicia Proceso 2: inicio = 120; total = 50; ejecutado = 40
+
+Estado actual del sistema:
+Proceso 2: inicio = 120; total = 50; ejecutado = 40
+Proceso 4: inicio = 160; total = 80; ejecutado = 20
+Proceso 1: inicio = 110; total = 300; ejecutado = 60
+
+Tiempo = 280: Termina Proceso 2: inicio = 120; total = 50; ejecutado = 50
+
+Tiempo = 280: Reinicia Proceso 4: inicio = 160; total = 80; ejecutado = 20
+
+Estado actual del sistema:
+Proceso 4: inicio = 160; total = 80; ejecutado = 20
+Proceso 1: inicio = 110; total = 300; ejecutado = 60
+
+Tiempo = 300: Se reemplaza Proceso 4: inicio = 160; total = 80; ejecutado = 40
+
+Tiempo = 300: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 60
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 60
+Proceso 4: inicio = 160; total = 80; ejecutado = 40
+
+Tiempo = 320: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 80
+
+Tiempo = 320: Reinicia Proceso 4: inicio = 160; total = 80; ejecutado = 40
+
+Estado actual del sistema:
+Proceso 4: inicio = 160; total = 80; ejecutado = 40
+Proceso 1: inicio = 110; total = 300; ejecutado = 80
+
+Tiempo = 340: Se reemplaza Proceso 4: inicio = 160; total = 80; ejecutado = 60
+
+Tiempo = 340: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 80
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 80
+Proceso 4: inicio = 160; total = 80; ejecutado = 60
+
+Tiempo = 360: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 100
+
+Tiempo = 360: Reinicia Proceso 4: inicio = 160; total = 80; ejecutado = 60
+
+Estado actual del sistema:
+Proceso 4: inicio = 160; total = 80; ejecutado = 60
+Proceso 1: inicio = 110; total = 300; ejecutado = 100
+
+Tiempo = 380: Termina Proceso 4: inicio = 160; total = 80; ejecutado = 80
+
+Tiempo = 380: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 100
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 100
+
+Tiempo = 400: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 120
+
+Tiempo = 400: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 120
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 120
+
+Tiempo = 420: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 140
+
+Tiempo = 420: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 140
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 140
+
+Tiempo = 440: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 160
+
+Tiempo = 440: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 160
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 160
+
+Tiempo = 460: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 180
+
+Tiempo = 460: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 180
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 180
+
+Tiempo = 480: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 200
+
+Tiempo = 480: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 200
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 200
+
+Tiempo = 500: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 220
+
+Tiempo = 500: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 220
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 220
+
+Tiempo = 520: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 240
+
+Tiempo = 520: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 240
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 240
+
+Tiempo = 540: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 260
+
+Tiempo = 540: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 260
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 260
+
+Tiempo = 560: Se reemplaza Proceso 1: inicio = 110; total = 300; ejecutado = 280
+
+Tiempo = 560: Reinicia Proceso 1: inicio = 110; total = 300; ejecutado = 280
+
+Estado actual del sistema:
+Proceso 1: inicio = 110; total = 300; ejecutado = 280
+
+Tiempo = 580: Termina Proceso 1: inicio = 110; total = 300; ejecutado = 300
+
+Estado actual del sistema:
+	No hay procesos en el sistema.
+
+Tiempo = 600: Entra Proceso 5: inicio = 600; total = 20; ejecutado = 0
+
+Estado actual del sistema:
+Proceso 5: inicio = 600; total = 20; ejecutado = 0
+
+Tiempo = 620: Termina Proceso 5: inicio = 600; total = 20; ejecutado = 20
+
+Estado actual del sistema:
+	No hay procesos en el sistema.
+
+Tiempo = 700: Entra Proceso 6: inicio = 700; total = 100; ejecutado = 0
+
+Estado actual del sistema:
+Proceso 6: inicio = 700; total = 100; ejecutado = 0
+
+Tiempo = 710: Entra Proceso 7: inicio = 710; total = 80; ejecutado = 0
+
+Estado actual del sistema:
+Proceso 6: inicio = 700; total = 100; ejecutado = 0
+Proceso 7: inicio = 710; total = 80; ejecutado = 0
+
+Tiempo = 720: Se reemplaza Proceso 6: inicio = 700; total = 100; ejecutado = 20
+
+Tiempo = 720: Reinicia Proceso 7: inicio = 710; total = 80; ejecutado = 0
+
+Estado actual del sistema:
+Proceso 7: inicio = 710; total = 80; ejecutado = 0
+Proceso 6: inicio = 700; total = 100; ejecutado = 20
+
+Tiempo = 740: Se reemplaza Proceso 7: inicio = 710; total = 80; ejecutado = 20
+
+Tiempo = 740: Reinicia Proceso 6: inicio = 700; total = 100; ejecutado = 20
+
+Estado actual del sistema:
+Proceso 6: inicio = 700; total = 100; ejecutado = 20
+Proceso 7: inicio = 710; total = 80; ejecutado = 20
+
+Tiempo = 760: Se reemplaza Proceso 6: inicio = 700; total = 100; ejecutado = 40
+
+Tiempo = 760: Reinicia Proceso 7: inicio = 710; total = 80; ejecutado = 20
+
+Estado actual del sistema:
+Proceso 7: inicio = 710; total = 80; ejecutado = 20
+Proceso 6: inicio = 700; total = 100; ejecutado = 40
+
+Tiempo = 780: Se reemplaza Proceso 7: inicio = 710; total = 80; ejecutado = 40
+
+Tiempo = 780: Reinicia Proceso 6: inicio = 700; total = 100; ejecutado = 40
+
+Estado actual del sistema:
+Proceso 6: inicio = 700; total = 100; ejecutado = 40
+Proceso 7: inicio = 710; total = 80; ejecutado = 40
+
+Tiempo = 800: Se reemplaza Proceso 6: inicio = 700; total = 100; ejecutado = 60
+
+Tiempo = 800: Reinicia Proceso 7: inicio = 710; total = 80; ejecutado = 40
+
+Estado actual del sistema:
+Proceso 7: inicio = 710; total = 80; ejecutado = 40
+Proceso 6: inicio = 700; total = 100; ejecutado = 60
+
+Tiempo = 820: Se reemplaza Proceso 7: inicio = 710; total = 80; ejecutado = 60
+
+Tiempo = 820: Reinicia Proceso 6: inicio = 700; total = 100; ejecutado = 60
+
+Estado actual del sistema:
+Proceso 6: inicio = 700; total = 100; ejecutado = 60
+Proceso 7: inicio = 710; total = 80; ejecutado = 60
+
+Tiempo = 840: Se reemplaza Proceso 6: inicio = 700; total = 100; ejecutado = 80
+
+Tiempo = 840: Reinicia Proceso 7: inicio = 710; total = 80; ejecutado = 60
+
+Estado actual del sistema:
+Proceso 7: inicio = 710; total = 80; ejecutado = 60
+Proceso 6: inicio = 700; total = 100; ejecutado = 80
+
+Tiempo = 860: Termina Proceso 7: inicio = 710; total = 80; ejecutado = 80
+
+Tiempo = 860: Reinicia Proceso 6: inicio = 700; total = 100; ejecutado = 80
+
+Estado actual del sistema:
+Proceso 6: inicio = 700; total = 100; ejecutado = 80
+
+Tiempo = 880: Termina Proceso 6: inicio = 700; total = 100; ejecutado = 100
+
+Estado actual del sistema:
+	No hay procesos en el sistema.
+
+Tiempo = 1001: Se excedió el tiempo máximo.
