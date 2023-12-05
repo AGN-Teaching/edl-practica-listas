@@ -8,10 +8,20 @@ class ListaCircularD {
 public:
     ListaCircularD();
     ~ListaCircularD();
+    
+    // Inserta a x a continuación del cursor
     void insertar(T* x);
+    
+    // Elimina el elemento a continuación del cursor
     T* eliminar();
+    
+    // Devuelve el elemento del cursor
     T* elementoActual() const;
+    
+    // Avanza el cursor
     void avanzar();
+    
+    // Devuelve true si la lista está vacía, false en caso contrario
     bool esVacia() const;
     
 private:

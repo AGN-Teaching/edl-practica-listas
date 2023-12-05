@@ -5,14 +5,26 @@ public:
     int getTInicio();
     int getTTotal();
     int getTEjecutado();
+    
+    // Devuelve el tiempo que falta por ejecutar
     int obtenerTRestante();
+    
+    // Actualiza el tiempo que hace falta ejecutar
     void actualizarTRestante(int tEjecucion);
     
 private:
+    // ID del proceso
     int idP;
+    
+    // Tiempo de inicio del proceso
     int tInicio;
+    
+    // Tiempo de CPU que requiere el proceso para terminar
     int tTotal;
+    
+    // Tiempo que se ha ejecutado el proceso
     int tEjecutado;
+    
     friend std::ostream& operator<<(std::ostream &, const Proceso &);
 };
 
