@@ -1,1 +1,1 @@
-# edl-practica-listas
+# Practica 1: Listas
